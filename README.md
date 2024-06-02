@@ -12,6 +12,15 @@ The **News App** is a web application that allows users to read and explore the 
 
 - **Read More Links**: Each news article card includes a "Read More" link that opens the full article in a new tab.
 
+## Tech Stack
+
+The News App is built using the following technologies:
+
+- **Bootstrap**: Used for responsive design and styling of the user interface.
+- **HTML**: The backbone of the web page structure.
+- **CSS**: Used for custom styling and layout.
+- **JavaScript**: Handles dynamic content, API calls, and user interactions.
+
 ## Getting Started
 
 Follow these steps to run the News App on your local machine using the Live Server extension in Visual Studio Code:
@@ -27,18 +36,11 @@ Follow these steps to run the News App on your local machine using the Live Serv
    cd news-app
    ```
 
-3. **Install Dependencies**:
-   - Make sure you have [Node.js](https://nodejs.org/) installed.
-   - Install project dependencies using npm:
-     ```
-     npm install
-     ```
-
-4. **Get an API Key**:
+3. **Get an API Key**:
    - Visit [NewsAPI](https://newsapi.org/) and sign up for an API key.
    - Replace the placeholder API key in `script.js` with your actual API key.
 
-5. **Run the App with Live Server**:
+4. **Run the App with Live Server**:
    - Open the project folder in Visual Studio Code.
    - Right-click on `index.html` and select "Open with Live Server".
    - Your default web browser will open, and you'll see the News App homepage.
@@ -50,7 +52,3 @@ Contributions are welcome! If you find any issues or want to add new features, f
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Now you're all set! Explore the latest news articles using the News App. 📰🌐   .
